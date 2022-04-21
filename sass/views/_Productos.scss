@@ -1,0 +1,98 @@
+@media screen and (max-width:992px) and (min-width: 576px) {}
+
+body{
+    background-color: rgb(238, 238, 238);
+    
+
+    }
+.vete{
+    right: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    color: white;
+    
+    font-family: 'Staatliches', cursive;
+
+    
+}
+
+.navegacion{
+    width: 2000px;
+    height: 50px;
+    padding-top: -1000%;
+    text-decoration: none;
+    margin: 66px  auto;
+    background-color: rgb(255, 136, 0);
+    position: fixed;
+    top: -70px;
+    left: -100px;
+    right: 33%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navegacion ul{
+    list-style: none;
+    
+}
+
+
+.menu > li{
+    position: relative;
+display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 13px 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+/*Submenu*/
+
+.Submenu{
+    position: absolute;
+    background-color: rgb(255, 136, 0);
+    display: none;
+    width: 100%;
+    
+}
+.Submenu li a{
+    display: block;
+    padding: 3px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+.menu li:hover .Submenu{
+    display: block;
+}
+
+.fondo1{
+    background-color: rgb(219, 217, 217);
+    text-align: center;
+    justify-content: center;
+    height: 1000px;
+    
+}
+.bolsa{
+    height: 450px;
+    width: 470px;
+    padding-top: 30px;
+    padding-left: 400px;
+    
+}
+.product{
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    display: block;
+    padding-right: 140px;
+    padding-top: 140px;
+    font-family: 'Staatliches', cursive;
+    }
